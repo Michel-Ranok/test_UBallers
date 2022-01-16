@@ -1,0 +1,114 @@
+html{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin: 0 ;
+    background: linear-gradient(#fbfdff, #d2e3f0);
+}
+
+.content{
+    padding: 2em;
+}
+
+header{
+    background-color: rgb(50, 100, 180);
+    padding: 1em;
+    align-items: center;
+    justify-items: right;
+    display: flex;
+    color: white;
+}
+
+
+td>input{
+    height: 2em;
+}
+
+#champLogin{
+    vertical-align: top;
+}
+
+.lower-part{
+    width: 80%;
+}
+
+.infoText{
+    font-size: small;
+}
+
+.hinfoText{
+    text-decoration: none;
+    font-size: small;
+    color:rgb(172, 196, 243)
+}
+
+a {
+    text-decoration: none;
+    color:rgb(50, 100, 180)
+}
+
+.biggerText{
+    font-size: larger;
+}
+
+.longInput {
+    width: 100%;
+    height: 3em;
+    margin: 0.5em 0;
+    font-size: large;
+}
+
+.doubleInput{
+    display:flex;
+    width: 100%;
+    height: 3em;
+    margin: 1.5em 0;
+    padding: 0;
+}
+
+.doubleInput>* {
+    flex:1;
+    height: 3em;
+    width: 50%;
+    font-size: large;
+}
+
+.doubleInput>.rightItem {
+    margin-left: 0.5em;
+}
+
+.dateNaiss{
+    display:flex;
+    margin: 2em 0;
+}
+
+.dateNaiss>*{
+    flex:1;
+    height:2em;
+    margin-right:1em;
+}
+
+.radioText{
+    margin-right: 2.5em;
+}
+
+#btnInscription{
+    width: 12em;
+    height: 2em;
+    background: linear-gradient(#66c45d, #55a14e);
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    border-radius: 5px;
+}
+
+#btnConnexion{
+    width: 12em;
+    height: 3em;
+    background-color: rgb(72, 126, 214);
+    font-weight: bold;
+    color: white;
+    border-color: rgb(15, 29, 53);
+    border-width: 1px;
+}

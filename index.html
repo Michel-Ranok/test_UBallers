@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Inscription</title>
+</head>
+
+<body>
+    <header>
+        <form method="POST" action="connexion.php">
+            <table>
+                <tr>
+                    <td id="champLogin">
+                        <label for="IDlogin">Adresse email ou mobile</label><br>
+                        <input type=text id="IDlogin" name="login" placeholder="Votre login" required>
+                    </td>
+                    <td>
+                        <label for="IDmdp">Mot de passe</label><br>
+                        <input type=password id="IDmdp" name="mdp" placeholder="Votre mot de passe" required><br>
+                        <a href="" class="hinfoText">Informations de compte oubliées ?</a>
+                    </td>
+                    <td>
+                        <button type="submit" id="btnConnexion">Connexion</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </header>
+    <div class="content">
+        <h1>Inscription</h1>
+        <p class="biggerText">C'est gratuit (et ça le restera toujours)</p>
+        <form method="POST" action="inscription.php">
+            <div class="doubleInput">
+                <input type="text" name="prenom" id="IDprenom" placeholder="Prénom" required>
+                <input type="text" name="nom" id="IDnom" placeholder="Nom de famille" required class="rightItem">
+            </div>
+            <input type="text" name="telMail" id="IDtelMail" placeholder="Numéro de mobile ou email" required
+                class="longInput"><br>
+            <input type="text" name="confirm_telMail" id="IDconfirm_telMail"
+                placeholder="Confirmer numéro de mobile ou email" required class="longInput"><br>
+            <input type="password" name="nouvMdp" id="IDnouvMdp" placeholder="Nouveau mot de passe" required
+                class="longInput"><br>
+            <div class="lower-part">
+                <p class="biggerText">Date de naissance</p>
+                <div class="dateNaiss">
+                    <input type="number" name="jNaiss" min="1" max="31" placeholder="Jour" required>
+                    <input type="number" name="mNaiss" min="1" max="12" placeholder="Mois" required>
+                    <input type="number" name="aNaiss" min="1950" max="2022" placeholder="Année" required>
+                    <a href="" class="infoText">Pourquoi indiquer ma date de naissance ?</a>
+                </div>
+                <input type="radio" name="sexe" id="IDfemme" value="Femme">
+                <label for="IDfemme" class="biggerText radioText">Femme</label>
+                <input type="radio" name="sexe" id="IDhomme" value="Homme">
+                <label for="IDhomme" class="biggerText radioText">Homme</label><br>
+                <p class="infoText">En cliquant sur Inscription, vous acceptez nos <a href="">Conditions</a> et indiquez
+                    que
+                    vous avez lu notre <a href="">Politique d'utilisation des données</a>, y compris notre <a
+                        href="">Utilisation des cookies</a>. Vous pourrez recevoir des notifications par texto de la
+                    part
+                    deFacebook et pouvez vous désabonner à tout moment.</p>
+            </div>
+            <button type="submit" id="btnInscription">Inscription</button>
+        </form>
+    </div>
+</body>
+
+</html>
