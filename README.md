@@ -2,6 +2,6 @@
 
 ## Comment exécuter la page en local :
 
-- Importer la base de données depuis le fichier "test_uballers.sql".
-- Modifier les variables $host, $user et $password selon les identifiants de connexion au SGBD.
-- Ouvrir le dossier sur le serveur web ; la page d'accueil (index.html) devrait s'afficher.
+1. Importer la base de données depuis le fichier "test_uballers.sql".
+2. Modifier les variables $host, $user et $password selon les identifiants de connexion au SGBD.
+3. Ouvrir le dossier sur le serveur web ; la page d'accueil (index.html) devrait s'afficher.
